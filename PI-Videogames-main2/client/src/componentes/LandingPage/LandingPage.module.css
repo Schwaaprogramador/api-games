@@ -1,0 +1,39 @@
+.container {
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-image: url("../../imagenes/landingpage.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+
+
+    color: aliceblue;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around   ;
+}
+
+.h1 {
+    color: rgb(106, 255, 0);
+    
+}
+.span {
+        color: aliceblue;
+}
+
+.botonIngreso {
+    background-color: transparent;
+    color: white;
+    text-decoration: none;
+    text-shadow: 2px;
+    font-size: 40px;
+}
+.botonIngreso:hover {
+    color: rgb(8, 255, 0);
+    border: 2px solid;
+}

@@ -1,0 +1,43 @@
+.container {
+    
+    color: aliceblue;
+    display: flex;
+ 
+    border-bottom: 2px solid green;
+    height: 50vh;
+    align-items: center;
+    height: 40vh;
+    width: 40vw;
+    padding: 25px;
+    gap: 25px;
+    
+   
+
+}
+
+.imagen {
+    height: 25vh;
+    width: 15vw;
+    border-radius: 50px;
+}
+
+.navlink {
+    font-size: smaller;
+    text-decoration: none;
+    color: aliceblue;
+} 
+.navlink:hover {
+    color: green;
+    text-shadow: 25px;
+    
+}
+
+.text {
+    
+
+    justify-content: center;
+    height: 25vh;
+    width: 50vw;
+    align-items: center;
+}
+

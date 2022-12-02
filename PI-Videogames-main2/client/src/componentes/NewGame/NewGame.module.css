@@ -1,0 +1,62 @@
+.container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+    
+    
+}
+
+.h1 {
+    color: green;
+    border-bottom: 1px solid white;
+    
+}
+
+.form {
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px
+}
+
+.input{
+    margin: 10px;
+    padding: 5px;
+    display: flex;
+    gap: 10px;
+    color: green;
+}
+
+.buttonCreate {
+    background-color: white;
+    color: black;
+    height: 5vh;
+    width: 10vw;
+    margin: 10px;
+}
+
+.buttonCreate:hover {
+    background-color: forestgreen;
+    
+
+}
+
+.button {
+    background-color: white;
+    color: black;
+    height: 5vh;
+    width: 10vw;
+    margin: 10px;
+}
+
+.button:hover {
+    background-color: chocolate;
+    
+
+}
